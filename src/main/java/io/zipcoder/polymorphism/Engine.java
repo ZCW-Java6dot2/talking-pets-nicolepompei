@@ -38,7 +38,7 @@ public class Engine {
                 switch (input) {
                     case 1:
                         System.out.println("What's your dog's name?");
-                        petName = scanner.nextLine();
+                        petName = scanner.next();
                         Dog dog = new Dog(petName);
                         dog.setName(petName);
                         this.petInfo.add(dog);
@@ -46,13 +46,13 @@ public class Engine {
 
                     case 2:
                         System.out.println("What's your cat's name?");
-                        petName = scanner.nextLine();
+                        petName = scanner.next();
                         petInfo.add(new Cat(petName));
                         break;
 
                     case 3:
                         System.out.println("What's your quokka's name?");
-                        petName = scanner.nextLine();
+                        petName = scanner.next();
                         petInfo.add(new Quokka(petName));
                         break;
                     case 4:
