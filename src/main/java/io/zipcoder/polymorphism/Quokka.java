@@ -7,11 +7,6 @@ public class Quokka extends Pet {
         super(name);
     }
 
-
-    public Quokka() {
-        super(null);
-    }
-
     @Override
     public String speak() {
         return "squeak!";

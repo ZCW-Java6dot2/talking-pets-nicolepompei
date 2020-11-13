@@ -7,7 +7,8 @@ public class QuokkaTest {
     @Test
     public void speakTest() {
         // Given
-        Quokka testQuokka = new Quokka();
+
+        Quokka testQuokka = new Quokka("");
 
         // When
         String expected = "squeak!";
@@ -35,7 +36,7 @@ public class QuokkaTest {
     @Test
     public void setQuokkaNameTest() {
         // Given
-        Quokka testQuokka = new Quokka();
+        Quokka testQuokka = new Quokka("");
 
         // When
         String expected = "portabella";

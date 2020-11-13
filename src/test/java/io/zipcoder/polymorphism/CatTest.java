@@ -8,7 +8,7 @@ public class CatTest {
     @Test
     public void speakTest() {
         // Given
-        Cat testCat = new Cat();
+        Cat testCat = new Cat("");
 
         // When
         String expected = "meow!";
@@ -36,7 +36,7 @@ public class CatTest {
     @Test
     public void setCatNameTest() {
         // Given
-        Cat testCat = new Cat();
+        Cat testCat = new Cat("");
 
         // When
         String expected = "jessie";
